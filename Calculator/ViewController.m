@@ -58,31 +58,36 @@
 - (IBAction) plusbutton {
     operation = Plus;
     storage = display.text;
-    display.text=@"";
+    [self clearDisplay];
+    //display.text=@"";
 }
 
 - (IBAction) minusbutton {
     operation = Minus;
     storage = display.text;
-    display.text=@"";
+   [self clearDisplay];
+    //display.text=@"";
 }
 
 - (IBAction) multiplybutton {
     operation = Multiply;
     storage = display.text;
-    display.text=@"";
+    [self clearDisplay];
+   // display.text=@"";
 }
 
 -(IBAction) modbutton {
     operation = Modulus;
     storage = display.text;
-    display.text = @"";
+    [self clearDisplay];
+   // display.text = @"";
 }
 
 - (IBAction) dividebutton {
     operation = Divide;
     storage = display.text;
-    display.text=@"";
+    [self clearDisplay];
+    //display.text=@"";
 }
 
 - (IBAction) equalsbutton {
