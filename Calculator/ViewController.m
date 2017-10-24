@@ -88,6 +88,7 @@
     storage = display.text;
     [self clearDisplay];
     //display.text=@"";
+
 }
 
 - (IBAction) equalsbutton {
